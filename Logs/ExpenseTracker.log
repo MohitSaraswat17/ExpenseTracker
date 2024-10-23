@@ -1,0 +1,32 @@
+2024-10-23T11:15:36.179+05:30 [restartedMain] INFO  o.s.boot.StartupInfoLogger.logStarting 50 - Starting ExpenseTracker using Java 17.0.12 with PID 20596 (C:\Users\saras\Desktop\Mittal_Software_labs_expense_tracker\Backend_Updated\target\classes started by saras in C:\Users\saras\Desktop\Mittal_Software_labs_expense_tracker\Backend_Updated)
+2024-10-23T11:15:36.192+05:30 [restartedMain] INFO  o.s.boot.SpringApplication.logStartupProfileInfo 654 - No active profile set, falling back to 1 default profile: "default"
+2024-10-23T11:15:36.430+05:30 [restartedMain] INFO  o.s.boot.logging.DeferredLog.logTo 252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-23T11:15:36.433+05:30 [restartedMain] INFO  o.s.boot.logging.DeferredLog.logTo 252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-23T11:15:39.011+05:30 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-23T11:15:39.227+05:30 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 211 - Finished Spring Data repository scanning in 200 ms. Found 6 JPA repository interfaces.
+2024-10-23T11:15:41.260+05:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize 111 - Tomcat initialized with port 8080 (http)
+2024-10-23T11:15:41.289+05:30 [restartedMain] INFO  o.apache.juli.logging.DirectJDKLog.log 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-23T11:15:41.309+05:30 [restartedMain] INFO  o.apache.juli.logging.DirectJDKLog.log 173 - Starting service [Tomcat]
+2024-10-23T11:15:41.313+05:30 [restartedMain] INFO  o.apache.juli.logging.DirectJDKLog.log 173 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-23T11:15:41.475+05:30 [restartedMain] INFO  o.apache.juli.logging.DirectJDKLog.log 173 - Initializing Spring embedded WebApplicationContext
+2024-10-23T11:15:41.477+05:30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext 296 - Root WebApplicationContext: initialization completed in 5041 ms
+2024-10-23T11:15:41.867+05:30 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-23T11:15:42.109+05:30 [restartedMain] INFO  org.hibernate.Version.logVersion 44 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-23T11:15:42.236+05:30 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator.initiateService 50 - HHH000026: Second-level cache disabled
+2024-10-23T11:15:42.970+05:30 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer 87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-23T11:15:43.039+05:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection 109 - HikariPool-1 - Starting...
+2024-10-23T11:15:44.289+05:30 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast 554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d4896d0
+2024-10-23T11:15:44.295+05:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection 122 - HikariPool-1 - Start completed.
+2024-10-23T11:15:44.504+05:30 [restartedMain] WARN  o.h.e.j.d.i.DialectFactoryImpl.constructDialect 153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-23T11:15:46.519+05:30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService 59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-23T11:15:49.016+05:30 [restartedMain] INFO  o.s.o.j.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory 437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-23T11:15:49.762+05:30 [restartedMain] INFO  M.m.E.config.SecurityConfig.authenticationManager 56 - Authentication manager object org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration@2deceabd
+2024-10-23T11:15:49.858+05:30 [restartedMain] INFO  M.m.E.config.SecurityConfig.authenticationProvider 51 - org.springframework.security.authentication.dao.DaoAuthenticationProvider@53c36115
+2024-10-23T11:15:49.871+05:30 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure 83 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-10-23T11:15:49.874+05:30 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure 72 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-23T11:15:50.105+05:30 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory.<clinit> 49 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-23T11:15:51.953+05:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor 236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-23T11:15:53.220+05:30 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer 59 - LiveReload server is running on port 35729
+2024-10-23T11:15:53.258+05:30 [restartedMain] INFO  o.apache.juli.logging.DirectJDKLog.log 173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-23T11:15:53.322+05:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start 243 - Tomcat started on port 8080 (http) with context path '/'
+2024-10-23T11:15:53.347+05:30 [restartedMain] INFO  o.s.boot.StartupInfoLogger.logStarted 56 - Started ExpenseTracker in 18.613 seconds (process running for 19.503)
